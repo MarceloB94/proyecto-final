@@ -1,0 +1,230 @@
+* { 
+    margin: 0 auto;
+    padding: 0%;
+    box-sizing: border-box;
+}
+    #menu ul {
+        font-size: 35px;
+        display: flex;
+        
+        list-style: none;
+        font-family:;font-family: 'Oswald', sans-serif;
+        width: 100%;
+    
+        
+    }
+    #menu ul li {
+        display:inline-flex;
+        
+       
+     }
+     #menu ul li a{
+        color:white;
+        display:block;
+        padding: 20px 60px;
+        text-decoration: none;
+     
+    }
+    #menu ul li a:hover{
+        opacity: 0.70;
+        }
+    
+
+
+.text-center{
+    text-align: center;
+}
+.contenedor{
+    width: 100%;
+    max-width: 1320px;
+    margin: 0 auto;
+}
+img{
+    width: 340px;
+}
+.grid-padre{
+    display:grid;
+    grid-template-columns: repeat(3 , 1fr);
+    column-gap: 30px;
+    font-family:;font-family: 'Oswald', sans-serif;
+    
+}
+p{
+    margin-bottom: 25px;
+}
+.hijo{
+    margin-bottom:  20px;
+    font-size:20px ;
+}
+.hijo:hover{
+    transform:scale(1.05)
+}
+.btn{
+    text-decoration: none;
+    margin-top: 20px;
+    background-color: rgb(20, 216, 20);
+    color:white;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: all 1s ease;
+}
+.btn:hover{
+    background-color: rgb(35, 245, 35);
+    color:black;
+}
+
+svg{
+    vertical-align: center;
+}
+header{
+ 
+    position:sticky;
+    top: 0 ;
+    z-index: 2;
+    background-image: linear-gradient(rgb(255, 123, 0),red, red,black  );
+}
+.texto-index{
+    font-family:;font-family: 'Oswald', sans-serif;
+    background-color:gray;
+    color: white;
+    text-align:center;
+    font-size: 20px;
+    
+}
+.text__sucursales{
+ font-size: 25px;
+}
+.flex{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+    form{
+    
+        text-align: center;
+        font-family:;font-family: 'Oswald', sans-serif;
+    }
+    .tittle__h1{
+        background-color:gray;
+        font-family: 'Oswald', sans-serif;
+        text-align: center;
+    }
+    .tittle__h2{
+        background-color:gray;
+        font-family: 'Oswald', sans-serif;
+        text-align: center;
+    }
+    #map{
+        text-align: center;
+        font-family:;font-family: 'Oswald', sans-serif;
+    }
+    #ubicacionparrafo{
+        font-size: 30px;
+    }
+       #parrafoNosotros{
+            
+            min-height: 1100px;
+            text-align:left;
+            font-size: 40px;
+            font-family:;font-family: 'Oswald', sans-serif;
+           
+        }
+        .videos{
+            display:grid; 
+            grid-template-columns:repeat(1 , 1fr);
+            column-gap: 30px;
+
+            gap: 1.6rem;
+             
+        }
+
+        form {
+            font-size: 40px;
+            background-color: rgb(206, 206, 206);
+            
+               
+              }
+        form input{ 
+            width : 700px;
+            height:50px;            
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        form textarea{  
+            width : 700px;
+            height:300px;
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+            
+        form select{
+            width : 250px;
+            height:50px;
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-size: 20px;
+
+        }
+        form ::placeholder{
+            font-size: 20px;
+        }
+        form input:hover{
+            background-color: rgb(223, 219, 219);
+        }
+        .botonform{
+            align-items: center;           
+            padding: 8px 30px;
+            background-color:rgb(241, 241, 241)
+        }
+        .botonform:hover{
+            background-color: rgb(165, 173, 168);
+        }
+        
+        .field:focus{
+         border-color:maroon;
+        }
+        .field{
+            outline: none;
+            padding: 8px 50px;
+        
+        }
+        footer{
+            background-image: linear-gradient(rgb(36, 34, 34),rgb(105, 103, 103)  );
+           
+            font-size: 30px;
+            color:white  
+        }
+        .iconos a{
+            text-decoration: none;
+            color:white;
+            margin 20px;
+            font-size: 40px;
+        }
+        .iconos a i:hover{
+            color:darkgray;
+        }
+
+
+     
+        .loading:hover {
+            display: inline-block;
+            animation: loading 2s linear infinite;
+           
+          }
+          
+          @keyframes loading {
+
+            0% {
+                transform: rotateX(0deg) rotateY(0deg);
+              }
+              50% {
+                transform: rotateX(0deg) rotateY(180deg);
+              }
+           
+            }
+          
