@@ -44,7 +44,9 @@ img{
 }
 .grid-padre{
     display:grid;
-    grid-template-columns: repeat(3 , 1fr);
+    grid-template-columns:repeat(3 ,1fr);
+    
+
     column-gap: 30px;
     font-family:;font-family: 'Oswald', sans-serif;
     
@@ -94,6 +96,7 @@ header{
 }
 .text__sucursales{
  font-size: 25px;
+ 
 }
 .flex{
     display:flex;
@@ -204,7 +207,6 @@ header{
         }
         footer{
             background-image: linear-gradient(rgb(36, 34, 34),rgb(105, 103, 103)  );
-           
             font-size: 30px;
             color:white  
         }
@@ -236,4 +238,5 @@ header{
               }
            
             }
-          
+  
+
